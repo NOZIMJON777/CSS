@@ -1,0 +1,101 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container {
+    width: 800px;
+    height: 500px;
+    margin: 90px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.container div {
+    width: 150px;
+    height: 150px;
+    background-color: rgb(67, 212, 235);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 1s ease-in-out ;
+}
+ .container .item-1:hover {
+transform: scaleX(0.5);
+}
+.container .item-2:hover {
+    transform: scaleY(1.5);
+    background-color: rgb(124, 178, 199);
+}
+.container .item-3:hover {
+    transform: scale(0.5);
+}
+.container .item-4:hover {
+    transform: translateX(100px);
+    background-color: rgb(124, 178, 199);
+}
+.container .item-5:hover {
+    transform: translateY(100px);
+    background-color: rgb(124, 178, 199);
+}
+.container .item-6:hover {
+    transform: translate(100px 150PX);
+    background-color: rgb(124, 178, 199);
+}
+.container .item-7:hover {
+    transform: matrix(1, 2, -1, 1, 80, 80);
+    background-color: rgb(124, 178, 199);
+}
+.container .item-8:hover {
+    transform: rotate(90deg);
+    background-color: rgb(124, 178, 199);
+}
+.container .item-9:hover {
+    transform: skew(40deg );
+    background-color: rgb(124, 178, 199);
+}
+.container .item-10:hover {
+    transform: skewX(60deg);
+    background-color: rgb(124, 178, 199);
+}
+.container .item-11:hover {
+    transform: skewY(50deg);
+    background-color: rgb(124, 178, 199);
+}
+.container .item-12:hover {
+    transform:  matrix3d(     1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    6,
+    0,
+    0,
+    0,
+    1,
+    0,
+    50,
+    100,
+    0,
+    1.1);
+    background-color: rgb(124, 178, 199);
+}
+.container .item-13:hover {
+    transform: perspective(500px) translate3d(10px,0px,30px);
+    background-color: rgb(124, 178, 199);
+}
+.container .item-14:hover {
+    transform: rotateY(180deg);
+    background-color: rgb(124, 178, 199);
+}   
+.container .item-15:hover {
+    transform: rotateX(180deg);
+    background-color: rgb(124, 178, 199);
+} 
+.container .item-16:hover {
+    transform:  perspective(500px) translateZ(100px);
+    background-color: rgb(124, 178, 199);
+} 

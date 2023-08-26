@@ -1,0 +1,113 @@
+
+.colorful {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-left: 150px;
+    margin-top: 350px;
+}
+.colorful :nth-child(1){
+    color: blue;
+    font-size: 200px;
+    font-weight: bold;
+    position: absolute;
+    left: 0px;
+    z-index:7 ;
+    transition: 1s ease-in-out;
+}
+.colorful :nth-child(1):hover {
+    color: rgb(144, 144, 189);
+    transform:rotate(20deg)
+}
+.colorful :nth-child(2){
+    color:green;
+    font-size: 200px;
+    font-weight: bold;
+    position: absolute;
+    left: 100px;
+    z-index:6;
+    transition: 1s ease-in-out;
+}
+.colorful :nth-child(2):hover {
+    color: greenyellow;
+    transform:rotate(20deg);
+}
+.colorful :nth-child(3){
+    color:rgb(255, 213, 0);
+    font-size: 200px;
+    font-weight: bold;
+    position: absolute;
+    left: 210px;
+    z-index:0 ;
+    transition: 1s ease-in-out;
+}
+.colorful :nth-child(3):hover {
+   color: yellowgreen;
+    transform:rotate(20deg);
+}
+.colorful :nth-child(4){
+    color:darkmagenta;
+    font-size: 200px;
+    font-weight: bold;
+    position: absolute;
+    left: 294px; 
+    z-index: 4;
+    transition: 1s ease-in-out;
+}
+.colorful :nth-child(4):hover {
+   color: rgb(143, 63, 143);
+    transform:rotate(20deg);
+}
+.colorful :nth-child(5){
+    color:orange;
+    font-size: 200px;
+    font-weight: bold;
+    position: absolute;
+    left: 408px; 
+    z-index: 3;
+    transition: 1s ease-in-out;
+}
+.colorful :nth-child(5):hover {
+    color: rgb(196, 152, 72);
+    transform:rotate(20deg);
+}
+.colorful :nth-child(6){
+    color:deeppink;
+    font-size: 200px;
+    font-weight: bold;
+    position: absolute;
+    left: 498px; 
+    z-index: 2;
+    transition: 1s ease-in-out;
+}
+.colorful :nth-child(6):hover {
+    color: pink;
+    transform:rotate(20deg);
+}
+.colorful :nth-child(7){
+    color:blue;
+    font-size: 200px;
+    font-weight: bold;
+    position: absolute;
+    left: 580px;
+    z-index: 1;
+    transition: 1s ease-in-out;
+}
+.colorful :nth-child(7):hover {
+   color: skyblue;
+    transform:rotate(20deg);
+}
+.colorful :nth-child(8){
+    color:rgb(255, 213, 0);
+    font-size: 200px;
+    font-weight: bold;
+    position: absolute;
+    left: 680px; 
+    z-index: 0;
+    transition: 1s ease-in-out;
+}
+.colorful :nth-child(8):hover {
+    color: rgb(107, 107, 63);
+    transform:rotate(20deg);
+}
